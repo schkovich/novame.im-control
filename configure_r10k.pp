@@ -10,7 +10,7 @@ class { 'r10k':
   version           => '1.3.2',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/glarizza/puppet_repository.git',
+      'remote'  => 'git@github.com:schkovich/novame.im-control.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
